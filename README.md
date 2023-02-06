@@ -58,3 +58,18 @@ change (v2.15.1) for last version
 
 ![image](https://user-images.githubusercontent.com/110078907/216590437-fbff5454-b525-4fa7-baef-e7b4fc665dcd.png)
 
+
+# Uninstall docker compose
+
+### If installed via apt-get
+
+        sudo apt-get remove docker-compose
+
+### If installed via curl
+
+        sudo rm /usr/local/bin/docker-compose
+
+### If installed via pip
+
+        pip uninstall docker-compose
+
